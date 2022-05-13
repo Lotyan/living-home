@@ -1,0 +1,254 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Roboto Slab', serif;
+	font-size: 15px;
+}
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+a {
+	font-weight: 700;
+	text-decoration: none;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none
+}
+.fa-input {
+	color: #9c95a5;
+	position: absolute;
+	margin-left: 25px;
+	padding-top: 20px;
+}
+.navbar {
+	position: sticky;
+	top: 0;
+	z-index: 2;
+	background: #fff;
+	padding-top: 11px;
+	padding-bottom: 15px;
+}
+.container {
+	width: 1230px;
+	margin: 0 auto;
+}
+.navbar-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar-container__logo a {
+	outline: none;
+}
+.navbar-lists{
+	display: flex;
+}
+
+.list-link a{
+	display: block;
+	font-size: 14px;
+	color: #000;
+	font-weight: 700;
+	padding: 10px 10px;
+	
+}
+.list-link:hover {
+	background: #f7f2fe;
+	border-radius: 5px;
+}
+.navbar-container__request-call {
+	display: flex;
+	flex-direction: column;
+}
+.navbar-phone {
+	font-size: 21px;
+	color: #2f1059;
+	text-decoration: none;
+}
+.call-back {
+	display: block;
+	font-size: 14px;
+	color: #2f1059;
+	text-decoration: none;
+	border: 1px solid #2f1059;
+	border-radius: 5px;
+	padding: 10px 12px;
+	text-align: center;
+	margin-top: 5px;
+	transition: all 0.3s ease;
+}
+.call-back:hover {
+	color: #fff;
+	background: #2f1059;
+}
+.call-back i {
+	margin-right: 7px;
+}
+.main-banner {
+	background: url('../img/header-bg.png') no-repeat center center / cover;
+	padding-top: 30px;
+	padding-bottom: 410px;
+}
+.offer {
+	padding: 50px 0;
+	background: url('../img/cloud.png') no-repeat  center / cover;
+}
+.offer h1{
+	text-align: center;
+	font-size: 43px;
+	color: #2f1059;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.offer h3 {
+	font-weight: 300;
+	text-align: center;
+	color: #2f1059;
+	font-size: 22px;
+}
+.offer h4 {
+	font-weight: 300;
+	text-align: center;
+	color: #2f1059;
+	font-size: 20px;
+}
+.header-form{
+	position: absolute;
+	width: 780px;
+	height: 238px;
+	color: #fff;
+	background: url('../img/form-bg.png') no-repeat center / cover;
+	padding: 35px 0 15px 0;
+	text-align: center;
+	left: 50%;
+	margin-left: -400px;
+	top: 540px;
+}
+.header-form__data-input{
+	display: inline-block;
+	margin-top: 23px;
+}
+.header-form__input{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #9c95a5;
+	border-radius: 5px;
+	border: none;
+	background: #e8def5;
+	outline: none;
+	margin-right: 7px;
+	padding: 15px 0;
+	padding-left: 45px;
+	width: 200px;
+}
+.header-form__button {
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 17px;
+	padding: 16px 25px;
+	border-radius: 5px;
+	border: none;
+	background: #d22828;
+	color: #fff;
+	cursor: pointer;
+}
+.header-for__down-text {
+	margin-top: 40px;
+	color: #7925ec;
+}
+.header-for__down-text span {
+	border: 1px solid #7925ec;
+	border-radius: 3px;
+	font-weight: 700;
+	padding: 0 5px;
+}
+.circle-item {
+	display: flex;
+	background: url('../img/Ellips-item.png') no-repeat;
+	width: 160px;
+	height: 160px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.circle-item_text {
+	width: 100px;
+	font-size: 15px;
+}
+.benefits {
+	padding-top: 75px;
+}
+.benefits__description {
+	display: flex;
+	justify-content: space-between;
+}
+.circle-item:first-child {
+	margin-top: 120px;
+}
+.circle-item:nth-child(2) {
+	margin-top: 53px;
+}
+.circle-item:nth-child(5) {
+	margin-top: 53px;
+}
+.circle-item:last-child {
+	margin-top: 120px;
+}
+.deadline {
+	background: url('../img/Section-02-bg.png') no-repeat center / cover;
+	padding-top: 50px;
+	padding-bottom: 90px;
+}
+.deadline__offer {
+	position: relative;
+	text-align: center;
+	color: #fff;
+}
+.deadline__offer h3 {
+	font-size: 30px;
+}
+.deadline__offer p {
+	font-size: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+.deadline__img-insured {
+	position: absolute;
+	left: 50%;
+	margin-left: -71px;
+}
+.location__title {
+	text-align: center;
+	margin-top: 70px;
+}
+.location__title h2 {
+	text-transform: uppercase;
+	font-size: 37px;
+}
+.location__title p {
+	font-size: 20px;
+}
+.location__images {
+	display: flex;
+}
+.images__item {
+	width: 400px;
+	text-align: center;
+}
+.images__item h4 {
+	font-size: 21px;
+}
+.images__item:nth-child(2) {
+	margin-top: 60px;
+}
